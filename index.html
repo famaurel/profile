@@ -8,46 +8,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <img id="profile-pic" class= "img-circle" src="images/photo.jpg"
-      alt="Picture of Fanny Maurel"
-      width= 200px>
 
-      <h1>Fanny Maurel</h1>
-      <h2>Programmer</h2>
-      <p>After a master's degree in translation and a year working as an administrative assistant, I've decided to switch careers again and to become a web developer with Le Wagon Bordeaux.</p>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#info"><i class="fas fa-info"></i></a></li>
+      <li><a href="#music"><i class="fas fa-music"></i></a></li>
+    </ul>
+  </div>
+
+  <div id="page-content">
+    <div class="container">
+      <div class="card" id="info">
+        <img id="profile-pic" class= "img-circle" src="images/photo.jpg"
+        alt="Picture of Fanny Maurel"
+        width= 200px>
+
+        <h1>Fanny Maurel</h1>
+        <h2>Programmer</h2>
+        <p>After a master's degree in translation and a year working as an administrative assistant, I've decided to switch careers again and to become a web developer with Le Wagon Bordeaux.</p>
+      </div>
+
+      <div class="card">
+        <ul class="list-inline">
+          <li><a href="https://www.facebook.com/fanny.maurel.37" target="_blank"><i class="fab fa-facebook-square"></i><br>Facebook</a></li>
+          <li><a href="https://www.linkedin.com/in/fanny-maurel-866ba4104/" target="_blank"><i class="fab fa-linkedin"></i><br>LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="card" id="music">
+        <h2>My favorite bands</h2>
+
+        <table>
+          <tr>
+            <td><img src="images/ledzep.jpeg" alt="Led Zeppelin logo"></td>
+            <td><h3>Led Zeppelin</h3>
+              <p>English rock band formed in London in 1968</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/strokes.png" alt="The Strokes logo"></td>
+            <td><h3>The Strokes</h3>
+              <p>American rock band from New York City</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/queen.jpeg" alt="Queen logo"></td>
+            <td><h3>Queen</h3>
+              <p>British rock band formed in London in 1970</p></td>
+          </tr>
+        </table>
+      </div>
     </div>
-
-    <div class="card">
-      <ul class="list-inline">
-        <li><a href="https://www.facebook.com/fanny.maurel.37" target="_blank"><i class="fab fa-facebook-square"></i><br>Facebook</a></li>
-        <li><a href="https://www.linkedin.com/in/fanny-maurel-866ba4104/" target="_blank"><i class="fab fa-linkedin"></i><br>LinkedIn</a></li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>My favorite bands</h2>
-
-      <table>
-        <tr>
-          <td><img src="images/ledzep.jpeg" alt="Led Zeppelin logo"></td>
-          <td><h3>Led Zeppelin</h3>
-            <p>English rock band formed in London in 1968</p></td>
-        </tr>
-        <tr>
-          <td><img src="images/strokes.png" alt="The Strokes logo"></td>
-          <td><h3>The Strokes</h3>
-            <p>American rock band from New York City</p></td>
-        </tr>
-        <tr>
-          <td><img src="images/queen.jpeg" alt="Queen logo"></td>
-          <td><h3>Queen</h3>
-            <p>British rock band formed in London in 1970</p></td>
-        </tr>
-      </table>
-    </div>
-
   </div>
 
 </body>
